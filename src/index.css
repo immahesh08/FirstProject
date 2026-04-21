@@ -28,12 +28,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+/* #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: none;
+} */
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: left; /* optional */
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
